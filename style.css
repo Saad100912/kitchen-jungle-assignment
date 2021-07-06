@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-top: 150px;
+}
+p{
+    font-size: 17px;
+    color: rgba(53, 53, 53, 0.897);
+}
+h1{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-bar{
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-left: 80px;
+}
+.menu-bar img{
+    width: 50%;
+    margin-bottom: -10px;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin: 5px 0;
+    text-align: right;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+    color: black;
+    font-weight: 700;
+}
+.half-width-menu{
+    width: 50%;
+}
+.shop-section{
+    display: flex;
+    margin-top: 0;
+    background-image: url(images/background-1.png);
+    background-size: 90em;
+    background-repeat: no-repeat;
+}
+.discover-section{
+    display: flex;
+    background-image: url(images/background-2.jpg);
+    background-size: 90em;
+    background-repeat: no-repeat;
+}
+.top-spacing{
+    padding-top: 100px;
+}
+.half-width-1{
+    width: 50%;
+    padding-left: 80px;
+}
+.half-width-2{
+    width: 50%;
+    padding-right: 80px;
+}
+.half-width-1 img{
+    width: 100%;
+}
+.half-width-2 img{
+    width: 100%;
+    padding-left: 50px;
+}
+.main-heading{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(168, 217, 236);
+}
+.button{
+    background-image: linear-gradient(90deg, green, lime);
+    padding: 20px 50px;
+    border-radius:30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.explore-section{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.explore-description{
+    text-align: center;
+    padding: 0 200px 50px;
+}
+.explore-box{
+    display: flex;
+}
+.single-box{
+    width: 33%;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 20px;
+}
+.single-box img{
+    width: 100%;
+    border-radius: 30px;
+    height: 250px;
+}
+.followers-section{
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.single-media{
+    width: 33%;
+}
+.subscribe-section{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px 50px 50px;
+    background-image: linear-gradient(rgba(76, 0, 130, 0.616), indigo);
+    border-radius: 50px;
+}
+.subscribe-section h3{
+    color: rgb(191, 206, 247);
+    margin: 5px;
+}
+.half-width-subscribe{
+    display: flex;
+}
+.subscribe-option{
+    width: 50%;
+}
+.news-update{
+    padding-top: 90px;
+}
+.subscribe-divider{
+    padding-top: 8.5em;
+    font-weight: 700;
+}
+input{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e9dcc8;
+}
+.submit-button{
+    background-image: linear-gradient(90deg, #0000b3, #0000e9);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+footer{
+    margin-top: 150px;
+    padding: 50px 0 100px;
+    background-image: linear-gradient( rgb(150, 150, 150), rgb(59, 59, 59));
+    text-align: center;
+}
+.orange-highlight{
+    color: rgb(255, 145, 0);
+}
+.gray-highlight{
+    color: dimgrey;
+}
+.white-highlight{
+    color: white;
+}
+.crimson-highlight{
+    color: crimson;
+}
